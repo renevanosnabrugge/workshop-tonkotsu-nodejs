@@ -28,7 +28,8 @@ jobs:
     # deploy web app using Azure credentials
     - uses: azure/webapps-deploy@v1
       with:
-        app-name: 'node-rn'
+        app-name: 'rvoghaction'
+        slot-name: 'staging' 
 
     # Azure logout 
     - name: logout
